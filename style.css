@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+
+body {
+  background-color: FFE2D3;
+  font-family:'Montserrat', sans-serif;
+  color: rgb(50, 50, 50);
+  font-size: 18x;
+  line-height: normal;
+  background-image: repeating-radial-gradient(#fe8761, #fed39f 9%, #f6eec9 8%);
+}
+
+h1, h2 {
+
+  font-family: 'Montserrat', sans-serif;
+  line-height: normal;
+}
+
+h1 {
+  color: rgba(25, 16, 12, 0.9);
+  font-size: 30;
+}
+
+h2 {
+  font-size: 17.5;
+  color: #222222;
+}
+
+a {
+  color: (70, 70, 70);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.container {
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  border: 3px;
+  border-radius: 3px;
+  width: 650px;
+  margin: 40 auto auto;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  padding: 40px;
+  border-radius: 3px;
+  margin: 20px 0px;
+}
+
+.footer {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  padding: 30px;
+  border-radius: 3px;
+  margin: 20px 0px;
+
+}
+.img-circle {
+  border-radius: 50%;
+  width: 225px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  transition: all .3s ease-out .4s;
+  transform: translate3d(0, 0, 0);
+  transform: rotate(-.99turn);
+}
+
+
+.btn-blue {
+  color: (70, 70, 70);
+  text-decoration: none;
+  background-color: A56C4F;
+  padding: 9px 18px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  cursor: pointer;
+  background-image: linear-gradient(to top, #fbe3b9 0%, #fab696 0%, #f7c5a8 100%)
+}
+.btn-blue:hover {
+  color: f0f0f0;
+  transition: all 0.3s ease;
+}
+
+.card p {
+  margin-bottom: 40px;
+  margin-top: 33px;
+}
+
+.card h1 {
+  margin-bottom: 30px
+}
+
+.footer li {
+  list-style: none;
+  display: inline;
+  font-size: 35px;
+  color: grey;
+  margin: 20px 0px;
+  text-align: center;
+  padding-right: 35px;
+  margin-top: 30px;
+
+}
+
+.list-color i{
+  color: rgba(114, 74, 55, 0.60);
+}
+
+.list-color i:hover{
+  color: ababab;
+  transition: all 0.3s ease;
+
+}
+
+.footer h2 {
+  font-size: 19px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+.gif-resize {
+  height: auto;
+  width: 470px;
+  border-radius: 10px;
+  margin-top: 11px;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
